@@ -103,11 +103,11 @@ hr { margin-bottom: 35px; background-color: rgb(21, 164, 250);width: 600px;
 .plus p { text-align: center; 
 	font-size: 15px; line-height: 1.467; color: rgb(153, 153, 153); }
 .fa-mobile {background: linear-gradient(to right, #1E90FF 50%, #48baff 50%); 
-	padding: 22px 36px; text-align: center; color: #fff;}
+	padding: 22px 30px; text-align: center; color: #fff;}
 .fa-paper-plane {background:linear-gradient(to right, #1E90FF 50%, #48baff 50%); padding: 30px 23px; color: #fff;}
 .fa-bullhorn {background:linear-gradient(to right, #1E90FF 50%, #48baff 50%); 
 	padding: 29px 26px 30px 26px; color: #fff;}
-.plus i {margin-left: 80px; margin-bottom: 30px;}
+.plus i {display: block; width:50px ; margin:0 auto; margin-bottom: 30px;}
 .portfolio {background-color:#f6f9f9; padding-top: 82px; padding-bottom: 115px; text-align: center;}
 .portfolio h2 {  font-size: 41px;
   color: rgb(45, 57, 80); margin-bottom: 30px;
@@ -115,7 +115,7 @@ hr { margin-bottom: 35px; background-color: rgb(21, 164, 250);width: 600px;
 .portfolio p {  font-size: 15px;
   color: rgb(144, 144, 144); margin-bottom: 80px;
 }
-.portfolio img {width: 26%; height: auto; min-height: 200px;padding-left:30px; padding-bottom: 30px;}
+.portfolio img {width: 26%; height: 200px;padding-left:30px; padding-bottom: 30px;}
 .portfolio li {display: inline; }
 .input { background-image: url(./images/footer.png); 
 	background-repeat: no-repeat; 
@@ -130,11 +130,12 @@ hr { margin-bottom: 35px; background-color: rgb(21, 164, 250);width: 600px;
 	border-radius: 3px; margin-bottom: 20px;}
 textarea { width: 552px; height: 160px; background:transparent; 
 	border-radius: 3px; margin-bottom: 20px; font-family: Lato;}
-.button {width: 35%; margin: 0 auto;}
+.button {width: 56%; margin: 0 auto;}
 .button input[type="checkbox"] { display: inline-block;}
-.button input[type="submit"] {display: inline-block; border:solid 1px #1E90FF; background: transparent; 
-	width: 140px; height: 47px; font-size: 18px; font-family: Lato;
-  color: rgb(255, 255, 255); right:260px; padding: 0; 
+.button div {width: 57%; text-align:left;}
+.button input[type="submit"] {display: inline-block; border:solid 1px #1E90FF; 
+	background: transparent; width: 140px; height: 47px; float: right; font-size: 18px; font-family: Lato;
+  color: rgb(255, 255, 255); padding: 0; margin-bottom: 52px;
 }
 .footer {background-color: #f6f9f9;
 }
